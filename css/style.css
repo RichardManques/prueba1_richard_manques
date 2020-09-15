@@ -32,10 +32,77 @@ body{
 /*INICIO CAJA 2*/
 .caja2{
     color: black;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.048);
+}
+.cajalinea{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border:4px solid black;
+    height: 0px;
+    width: 200px;
+}
+/*ARTICLE 1*/
+.article1{
+    margin: 12px;
+    display: grid;
+
+}
+.cajaimg1 img{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+/*FIN ARTICLE 1*/
+/*INICIO ARTICLE 2*/
+.article2{
+    margin: 12px;
+    display: grid;
+}
+.cajaimg2 img{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+/*FIN ARTICLE 2*/
+/*INICIO ARTICLE 3*/
+.article3{
+    margin: 12px;
+    display: grid;
+}
+.cajaimg3 img{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+/*FIN ARTICLE 3*/
+/*FIN CAJA 2*/
+
+
+/*INICIO CAJA 3(ABOUT)*/
+.linea2 h4{
+    border: 4px solid black;
+    width: 40px;
+}
+.about{
     border: 1px solid red;
     text-align: center;
 }
-.caja1 h6{
-    border: 4px solid black;
+.aboutpa p{
+    text-align: justify;
+    padding: 6px;
 }
-/*FIN CAJA 2*/
+.aboutimg img{
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+}
+/*FIN CAJA 3(ABOUT)*/
+
+/*CAJA SUSCRIBE*/
+
+/*FIN CAJA SUSCRIBE*/
