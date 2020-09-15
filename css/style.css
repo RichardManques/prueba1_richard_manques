@@ -1,7 +1,41 @@
 /*CAJA 1*/
+body{
+    margin:0%;
+}
 .caja1{
-    height: 560px;
-    height: 20px;
+    color: #ffffff;
+    height: 600px;
+    margin:10px;
+}
+.caja1{
     background-image: url(../img/image5big.jpg);
+    background-size: cover;
+}
+.cajainfo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    transform: translateY(100%);
+}
+.cajaicon{
+ display: flex;
+ justify-content: flex-end;
+ padding: 10px;   
+}
+.cajainfo h4{
+    border:4px solid white;
+    width: 15px;
 }
 /*FIN CAJA 1*/
+
+/*INICIO CAJA 2*/
+.caja2{
+    color: black;
+    border: 1px solid red;
+    text-align: center;
+}
+.caja1 h6{
+    border: 4px solid black;
+}
+/*FIN CAJA 2*/
